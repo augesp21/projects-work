@@ -1,0 +1,273 @@
+*:focus {
+    outline: none !important;
+}
+
+::placeholder {
+    color: #2d3748;
+}
+
+::selection {
+    color: white;
+    background: #728197;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #5b687b;
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    color: #4b5ebe;
+    margin-top: unset;
+}
+
+.avatar-header {
+    width: 30%;
+    border-radius: 50%;
+    border: 5px solid #5b687b;
+}
+
+.title-job {
+    text-transform: uppercase;
+    color: #8895bf;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.title-header {
+    color: #333c66;
+    margin-bottom: 45px;
+    margin-top: 0px;
+}
+
+.title-header-name {
+    color: #4b5ebe;
+}
+
+.button-main {
+    background-color: #4b5ebe;
+    color: #ffffff;
+    text-decoration: none;
+    /* padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px; */
+    /* padding: 10px 20px 10px 20px; */
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.navbar-log {
+    height: 56px;
+    padding: 4px 0px;
+}
+
+.navbar-link {}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.header-background {
+    background-image: url(https://wallpaperaccess.com/full/5651978.png);
+    background-repeat: repeat-x;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+.imagen-full-width {
+    width: 100%;
+}
+
+.habilities {
+    display: inline-flex;
+}
+
+.hability-icon {
+    height: 40px;
+}
+
+.hability-description {
+    font-size: 16px;
+}
+
+.hability-tag {
+    background-color: rgba(51, 61, 102, .07);
+    color: rgba(51, 61, 102, .8);
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.profile-tag {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    color: rgba(51, 61, 102, 0.7);
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.hability-dot {
+    color: rgba(51, 61, 102, .7);
+}
+
+.hability-experience {
+    font-size: 10px;
+}
+
+.section-design {
+    padding: 30px 0px 30px 0px;
+}
+
+.section-design__center {
+    text-align: center;
+}
+
+.project-card {
+    border: 4px solid #fff;
+    width: 85%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    transition: all	0.13s ease-out;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.project-card h3,
+.project-card p {
+    color: #333c66;
+}
+
+.project-card h3 {
+    text-transform: uppercase;
+    margin-top: 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.row {
+    display: inline;
+}
+
+.row * {
+    display: inline;
+}
+
+.row div ul {
+    margin: 0px;
+}
+
+.float-right {
+    float: right;
+}
+
+.icon-list {
+    filter: grayscale(100%);
+    transition: all	0.3s ease-out;
+}
+
+.icon-list:hover {
+    filter: grayscale(0%);
+}
+
+/* .icon-list li:last-child,
+.icon-list li:first-child {
+font-size: 60px;
+} */
+
+#contact-form * {
+    margin: auto;
+    display: block;
+}
+
+#contact-form div.two-inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 10px;
+}
+
+#contact-form div.two-inputs input {
+    width: 90%;
+}
+
+#contact-form textarea,
+#contact-form input {
+    background-color: #edf2f7;
+    border: unset;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 0 2px #edf2f7;
+    transition: all	0.15s ease-out;
+    color: #2d3748;
+}
+
+#contact-form textarea:hover,
+#contact-form input {
+    box-shadow: 0 0 0 2px #ccd6e0;
+}
+
+#contact-form textarea {
+    margin-bottom: 10px;
+}
+
+#contact-form textarea,
+#contact-form div.two-inputs {
+    width: 50%;
+}
+
+#contact-form div button {
+    float: left;
+    border: unset;
+}
+
+.project-single {
+    display: inline-flex;
+}
+
+.-bg__salmon {
+    background-color: #ffe5d6;
+}
+
+.-bg__blue {
+    background-color: #d6edff;
+}
+
+.-bg__purple {
+    background-color: #dbdfff;
+}
+
+.-bg__blue-light {
+    background-color: #;
+}
+
+.w-50 {
+    width: 50%;
+    margin: auto;
+}

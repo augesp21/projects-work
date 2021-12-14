@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bakbak One', cursive;
+}
+
+:root {
+    --main-color: #EF251F;
+    --second-color: #0053E4;
+    --text-light: white;
+    --third-color: #1C4604;
+
+}
+
+.icono {}
+
+.title {
+    display: flex;
+    margin-left: 5px;
+    font-size: 14px;
+
+}
+
+.nav-bar {
+    display: flex;
+    background-color: var(--main-color);
+    color: white;
+    padding: 5px 8px;
+
+}
+
+.banner {
+    width: 10%;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+
+}
+
+.container-menu {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin: 0px 10px;
+}
+
+.shopping-car {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dashboard {
+    display: flex;
+    height: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: var(--second-color);
+    row-gap: 15px;
+}
+
+.card {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-light);
+    margin: 0 15px;
+}
+
+.card-title {}
+
+.card-description {
+text-align: center;
+font-size: 10px;
+}
+
+.footer-design {
+    background-color: var(--third-color);
+    display: flex;
+    justify-content: center;
+
+}
+ 
